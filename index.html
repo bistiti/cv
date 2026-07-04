@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jean-François Da Silva · Technicien Support N2/N3 · Systèmes & Réseaux</title>
+<meta name="description" content="Jean-François Da Silva, technicien support IT N2/N3 (6 ans). Support N0 à N3, systèmes & réseaux, environnements exigeants. Résident Beausoleil, éligible CDI monégasque, disponible immédiatement.">
+<meta name="theme-color" content="#0A1F24">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:url" content="https://bistiti.github.io/cv/">
+<meta property="og:site_name" content="Jean-François Da Silva">
+<meta property="og:title" content="Jean-François Da Silva · Technicien Support N2/N3 · Systèmes & Réseaux">
+<meta property="og:description" content="Support IT N0 à N3 (6 ans). Beausoleil · Monaco / Nice · éligible CDI monégasque · disponible immédiatement.">
+<meta property="og:image" content="https://bistiti.github.io/cv/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jean-François Da Silva · Technicien Support N2/N3">
+<meta name="twitter:description" content="Support IT N0 à N3 (6 ans). Beausoleil · Monaco / Nice · disponible immédiatement.">
+<meta name="twitter:image" content="https://bistiti.github.io/cv/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;450;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECF1F0;
+  --surface:#FFFFFF;
+  --ink:#0C2429;
+  --muted:#546A6F;
+  --faint:#7C9095;
+  --line:#D3DEDC;
+  --line-soft:#E2EAE8;
+  --teal:#0B6470;
+  --teal-deep:#094952;
+  --green:#12945F;
+  --green-bright:#2FCB92;
+  --amber:#B4661F;
+  --amber-bright:#F2A65A;
+  --console:#0A1F24;
+  --console-2:#0D272D;
+  --c-ink:#E4EDEC;
+  --c-muted:#7E999E;
+  --c-line:#1E3A40;
+  --maxw:1080px;
+  --pad-x:clamp(20px,6vw,64px);
+  --pad-y:clamp(56px,8vw,104px);
+  --radius:14px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:"Inter",system-ui,sans-serif;
+  font-size:16px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+a{color:inherit;}
+h1,h2,h3{margin:0;font-family:"Space Grotesk",sans-serif;font-weight:600;letter-spacing:-0.01em;}
+p{margin:0;}
+ul{margin:0;padding:0;list-style:none;}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--pad-x);}
+.mono{font-family:"JetBrains Mono",monospace;}
+
+/* ---------- accessibility ---------- */
+.skip{position:absolute;left:-9999px;top:0;background:var(--amber-bright);color:var(--console);
+  padding:10px 16px;font-family:"JetBrains Mono",monospace;font-weight:600;z-index:50;border-radius:0 0 8px 0;}
+.skip:focus{left:0;}
+a:focus-visible,button:focus-visible{outline:2px solid var(--amber-bright);outline-offset:3px;border-radius:4px;}
+
+/* ---------- eyebrow ---------- */
+.eyebrow{
+  font-family:"JetBrains Mono",monospace;
+  font-size:12px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;
+  color:var(--teal);margin:0 0 18px;display:flex;align-items:center;gap:9px;
+}
+.eyebrow::before{content:"//";color:var(--faint);font-weight:500;}
+
+/* =========================================================
+   CONSOLE HERO
+   ========================================================= */
+.console{
+  background:var(--console);
+  color:var(--c-ink);
+  background-image:radial-gradient(rgba(120,160,165,0.10) 1px,transparent 1px);
+  background-size:22px 22px;
+  border-bottom:1px solid var(--c-line);
+}
+.hero{padding:clamp(28px,5vw,44px) var(--pad-x) clamp(48px,7vw,80px);}
+.hero-inner{max-width:var(--maxw);margin:0 auto;}
+
+.statusbar{
+  display:flex;align-items:center;flex-wrap:wrap;gap:9px;
+  font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:0.05em;
+  text-transform:uppercase;color:var(--c-muted);
+  padding-bottom:14px;margin-bottom:22px;border-bottom:1px solid var(--c-line);
+}
+.status-dot{width:9px;height:9px;border-radius:50%;background:var(--green-bright);
+  box-shadow:0 0 0 0 rgba(47,203,146,0.55);animation:pulse 2.4s infinite;flex:none;}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(47,203,146,0.5);}70%{box-shadow:0 0 0 7px rgba(47,203,146,0);}100%{box-shadow:0 0 0 0 rgba(47,203,146,0);}}
+.status-value{color:var(--green-bright);font-weight:600;}
+.status-avail{color:var(--amber-bright);}
+.status-sep{color:var(--c-line);}
+.status-loc{margin-left:auto;color:var(--c-muted);}
+
+.boot{
+  font-family:"JetBrains Mono",monospace;font-size:12.5px;color:var(--c-muted);
+  margin-bottom:26px;letter-spacing:0.01em;
+}
+.boot .arrow{color:var(--green-bright);}
+.cursor{display:inline-block;width:8px;height:1.05em;background:var(--amber-bright);
+  margin-left:4px;vertical-align:-2px;animation:blink 1.1s steps(1) infinite;}
+@keyframes blink{50%{opacity:0;}}
+
+.name{
+  font-size:clamp(42px,8vw,76px);font-weight:700;line-height:1.0;letter-spacing:-0.03em;
+  color:#F4F9F8;margin-bottom:14px;
+}
+.name .lastname{color:var(--green-bright);}
+.role{
+  font-family:"JetBrains Mono",monospace;font-size:clamp(14px,2.3vw,18px);
+  letter-spacing:0.02em;color:var(--c-ink);font-weight:500;margin-bottom:22px;
+}
+.role .role-sep{color:var(--amber-bright);margin:0 4px;}
+.thesis{max-width:60ch;color:#C4D3D2;font-size:clamp(15px,1.9vw,18px);line-height:1.66;margin-bottom:38px;}
+
+.gauges{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+  background:var(--c-line);border:1px solid var(--c-line);border-radius:12px;overflow:hidden;margin-bottom:36px;
+}
+.gauge{background:var(--console-2);padding:20px 20px 18px;}
+.g-num{font-family:"JetBrains Mono",monospace;font-size:clamp(26px,4vw,38px);font-weight:700;
+  color:#F4F9F8;line-height:1;display:block;letter-spacing:-0.02em;}
+.g-num .pre{color:var(--c-muted);font-weight:500;}
+.g-unit{font-family:"JetBrains Mono",monospace;font-size:15px;color:var(--amber-bright);font-weight:600;margin-left:3px;}
+.g-bar{height:2px;width:34px;margin:12px 0 10px;border-radius:2px;}
+.gauge:nth-child(1) .g-bar{background:var(--green-bright);}
+.gauge:nth-child(2) .g-bar{background:var(--amber-bright);}
+.gauge:nth-child(3) .g-bar{background:var(--green-bright);}
+.gauge:nth-child(4) .g-bar{background:var(--amber-bright);}
+.g-label{font-family:"JetBrains Mono",monospace;font-size:11.5px;letter-spacing:0.04em;
+  text-transform:uppercase;color:var(--c-muted);line-height:1.4;display:block;}
+
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;}
+.btn{
+  display:inline-flex;align-items:center;gap:9px;text-decoration:none;
+  font-family:"JetBrains Mono",monospace;font-size:14px;font-weight:600;letter-spacing:0.01em;
+  padding:13px 22px;border-radius:9px;transition:transform .18s ease,background .18s ease,border-color .18s ease,color .18s ease;
+}
+.btn-primary{background:var(--amber-bright);color:#241203;border:1px solid var(--amber-bright);}
+.btn-primary:hover{background:#F6B673;transform:translateY(-2px);}
+.btn-primary .tk{color:var(--teal-deep);}
+.btn-ghost{background:transparent;color:var(--c-ink);border:1px solid var(--c-line);}
+.btn-ghost:hover{border-color:var(--green-bright);color:var(--green-bright);transform:translateY(-2px);}
+
+/* =========================================================
+   GENERIC SECTION
+   ========================================================= */
+.section{padding:var(--pad-y) 0;border-bottom:1px solid var(--line);}
+.section:last-of-type{border-bottom:none;}
+.section-head{max-width:var(--maxw);margin:0 auto 40px;}
+.section-title{font-size:clamp(24px,3.6vw,32px);letter-spacing:-0.02em;line-height:1.1;}
+.section-sub{color:var(--muted);margin-top:12px;max-width:64ch;font-size:15.5px;}
+
+/* =========================================================
+   ESCALATION LADDER (signature)
+   ========================================================= */
+.ladder-scope{
+  font-family:"JetBrains Mono",monospace;font-size:13px;color:var(--muted);
+  margin-top:14px;padding:10px 14px;background:var(--surface);border:1px solid var(--line);
+  border-radius:8px;display:inline-block;
+}
+.ladder-scope b{color:var(--teal);font-weight:600;}
+.ladder{
+  max-width:var(--maxw);margin:0 auto;position:relative;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:16px;
+}
+.ladder::before{
+  content:"";position:absolute;top:26px;left:8%;right:8%;height:2px;
+  background:linear-gradient(90deg,var(--line) 0%,var(--line) 40%,var(--green) 55%,var(--green) 100%);
+  z-index:0;
+}
+.tier{
+  position:relative;z-index:1;background:var(--surface);border:1px solid var(--line);
+  border-radius:var(--radius);padding:22px 20px 24px;display:flex;flex-direction:column;gap:4px;
+}
+.tier-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;}
+.tier-id{
+  font-family:"JetBrains Mono",monospace;font-size:26px;font-weight:700;letter-spacing:-0.02em;
+  width:52px;height:52px;display:flex;align-items:center;justify-content:center;border-radius:11px;
+}
+.tier--base .tier-id{background:var(--bg);color:var(--faint);border:1px solid var(--line);}
+.tier--active .tier-id{background:var(--console);color:var(--green-bright);}
+.tier-tag{
+  font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:600;letter-spacing:0.08em;
+  text-transform:uppercase;color:var(--green);display:inline-flex;align-items:center;gap:6px;
+}
+.tier-tag::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--green);}
+.tier-name{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:16px;color:var(--ink);margin-bottom:10px;}
+.tier--active{border-color:var(--green);box-shadow:0 10px 30px -18px rgba(18,148,95,0.5);}
+.tier-list li{
+  font-family:"JetBrains Mono",monospace;font-size:12.5px;line-height:1.5;color:var(--muted);
+  padding-left:16px;position:relative;margin:5px 0;
+}
+.tier-list li::before{content:"+";position:absolute;left:0;color:var(--teal);font-weight:600;}
+.tier--active .tier-list li::before{color:var(--green);}
+
+/* =========================================================
+   JOURNAL / EXPERIENCE LOG
+   ========================================================= */
+.log{max-width:var(--maxw);margin:0 auto;display:flex;flex-direction:column;gap:20px;}
+.entry{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:clamp(22px,3vw,32px);position:relative;overflow:hidden;
+}
+.entry::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--teal);}
+.entry-meta{
+  font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:0.04em;text-transform:uppercase;
+  color:var(--faint);display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:8px;
+}
+.entry-meta .ping{color:var(--green);}
+.entry-org{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:clamp(18px,2.4vw,22px);color:var(--ink);line-height:1.2;}
+.entry-role{font-family:"JetBrains Mono",monospace;font-size:13.5px;color:var(--teal);font-weight:500;margin-top:3px;margin-bottom:16px;}
+.readout{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;}
+.chip{
+  font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:500;color:var(--ink);
+  background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:5px 10px;
+}
+.chip b{color:var(--amber);font-weight:700;}
+.entry-list li{position:relative;padding-left:20px;margin:8px 0;color:var(--ink);font-size:15px;line-height:1.55;}
+.entry-list li::before{content:"▸";position:absolute;left:0;top:0;color:var(--teal);}
+.entry-list .win{color:var(--teal-deep);font-weight:600;}
+.entry--muted::before{background:var(--faint);}
+.entry--muted .entry-org{font-size:17px;}
+
+/* =========================================================
+   STACK
+   ========================================================= */
+.stack{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px 20px 22px;}
+.card-title{
+  font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:600;letter-spacing:0.05em;
+  text-transform:uppercase;color:var(--teal);margin-bottom:14px;display:flex;align-items:center;gap:8px;
+}
+.card-title::before{content:"";width:8px;height:8px;background:var(--amber-bright);border-radius:2px;flex:none;}
+.tags{display:flex;flex-wrap:wrap;gap:7px;}
+.tag{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted);
+  background:var(--bg);border:1px solid var(--line-soft);border-radius:6px;padding:4px 9px;}
+
+/* =========================================================
+   META (langues / formation / certifs / terrain)
+   ========================================================= */
+.meta{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+.meta-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px 20px;}
+.meta-card.feature{background:var(--console);color:var(--c-ink);border-color:var(--c-line);
+  background-image:radial-gradient(rgba(120,160,165,0.10) 1px,transparent 1px);background-size:18px 18px;}
+.meta-k{font-family:"JetBrains Mono",monospace;font-size:11.5px;letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--faint);margin-bottom:14px;}
+.meta-card.feature .meta-k{color:var(--amber-bright);}
+.meta-row{margin:0 0 12px;}
+.meta-row:last-child{margin-bottom:0;}
+.meta-main{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:15px;color:var(--ink);line-height:1.3;}
+.meta-card.feature .meta-main{color:#F4F9F8;}
+.meta-note{font-size:13px;color:var(--muted);line-height:1.45;margin-top:2px;}
+.meta-card.feature .meta-note{color:#B5C6C5;}
+.meta-main .lvl{font-family:"JetBrains Mono",monospace;color:var(--teal);font-size:13px;font-weight:600;}
+.bars{display:flex;gap:4px;margin-top:8px;}
+.bars i{height:6px;flex:1;border-radius:2px;background:var(--line);}
+.bars i.on{background:var(--green);}
+
+/* =========================================================
+   FOOTER CONSOLE
+   ========================================================= */
+.footer{background:var(--console);color:var(--c-ink);
+  background-image:radial-gradient(rgba(120,160,165,0.08) 1px,transparent 1px);background-size:22px 22px;
+  border-top:1px solid var(--c-line);}
+.footer-inner{max-width:var(--maxw);margin:0 auto;padding:var(--pad-y) var(--pad-x);}
+.footer-status{font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;
+  color:var(--c-muted);display:flex;align-items:center;gap:9px;margin-bottom:26px;padding-bottom:16px;border-bottom:1px solid var(--c-line);}
+.footer-h{font-size:clamp(26px,4vw,40px);color:#F4F9F8;letter-spacing:-0.02em;line-height:1.08;margin-bottom:12px;max-width:20ch;}
+.footer-p{color:#B5C6C5;max-width:52ch;margin-bottom:32px;}
+.contact{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;max-width:640px;margin-bottom:34px;}
+.contact a,.contact div{
+  display:flex;flex-direction:column;gap:3px;text-decoration:none;
+  background:var(--console-2);border:1px solid var(--c-line);border-radius:10px;padding:16px 18px;transition:border-color .18s ease,transform .18s ease;
+}
+.contact a:hover{border-color:var(--amber-bright);transform:translateY(-2px);}
+.contact .ck{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--c-muted);}
+.contact .cv{font-family:"JetBrains Mono",monospace;font-size:15px;color:#F4F9F8;font-weight:500;word-break:break-word;}
+.footer-foot{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--c-muted);
+  padding-top:22px;border-top:1px solid var(--c-line);display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between;}
+
+/* =========================================================
+   REVEAL / MOTION
+   ========================================================= */
+.js .reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease;}
+.js .reveal.in{opacity:1;transform:none;}
+@media (prefers-reduced-motion:reduce){
+  .js .reveal{opacity:1;transform:none;transition:none;}
+  .status-dot{animation:none;}
+  .cursor{animation:none;}
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+@media (max-width:900px){
+  .gauges{grid-template-columns:repeat(2,1fr);}
+  .ladder{grid-template-columns:repeat(2,1fr);}
+  .ladder::before{display:none;}
+  .stack{grid-template-columns:repeat(2,1fr);}
+  .meta{grid-template-columns:repeat(2,1fr);}
+}
+@media (max-width:560px){
+  .gauges{grid-template-columns:1fr 1fr;}
+  .ladder{grid-template-columns:1fr;}
+  .stack{grid-template-columns:1fr;}
+  .meta{grid-template-columns:1fr;}
+  .contact{grid-template-columns:1fr;}
+  .status-loc{margin-left:0;width:100%;}
+  .cta-row{width:100%;}
+  .btn{flex:1;justify-content:center;}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#stack">Aller au contenu</a>
+
+<!-- ===================== HERO CONSOLE ===================== -->
+<header class="console" id="top">
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="statusbar">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span>état du système :</span>
+        <span class="status-value">opérationnel</span>
+        <span class="status-sep">·</span>
+        <span class="status-avail">disponible immédiatement</span>
+        <span class="status-loc">Beausoleil (06240) · éligible CDI monégasque</span>
+      </div>
+
+      <p class="boot mono"><span class="arrow">&gt;</span> session ouverte : profil <b>da-silva.jf</b> chargé · support N0 → N3 · systèmes &amp; réseaux<span class="cursor" aria-hidden="true"></span></p>
+
+      <h1 class="name">Jean-François <span class="lastname">Da Silva</span></h1>
+      <p class="role">Technicien Support N2/N3 <span class="role-sep">·</span> Systèmes &amp; Réseaux</p>
+
+      <p class="thesis">Six ans à garder les systèmes en ligne, les tickets traités et les utilisateurs (y compris profil VIP) en activité. Support N0 à N3 et prise en main à distance en environnements exigeants : haute disponibilité, confidentialité, infogérance.</p>
+
+      <div class="gauges" role="list" aria-label="Indicateurs clés">
+        <div class="gauge" role="listitem">
+          <span class="g-num"><span data-to="6">6</span><span class="g-unit">ans</span></span>
+          <span class="g-bar"></span>
+          <span class="g-label">d'expérience IT</span>
+        </div>
+        <div class="gauge" role="listitem">
+          <span class="g-num"><span class="pre">~</span><span data-to="300">300</span></span>
+          <span class="g-bar"></span>
+          <span class="g-label">postes supervisés</span>
+        </div>
+        <div class="gauge" role="listitem">
+          <span class="g-num"><span data-to="637">637</span></span>
+          <span class="g-bar"></span>
+          <span class="g-label">tickets clos et 600 traités / an</span>
+        </div>
+        <div class="gauge" role="listitem">
+          <span class="g-num"><span class="pre">~</span><span data-to="48">48</span><span class="g-unit">h</span></span>
+          <span class="g-bar"></span>
+          <span class="g-label">délai moyen</span>
+        </div>
+      </div>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:jfdasilvapro@proton.me?subject=Opportunit%C3%A9%20Support%20N2%2FN3">
+          <span class="tk">#</span> Ouvrir un ticket
+        </a>
+        <a class="btn btn-ghost" href="CV_JFDS.pdf" download="CV_Jean-Francois_DA_SILVA.pdf">Télécharger le CV (PDF)</a>
+        <a class="btn btn-ghost" href="https://linkedin.com/in/jeanfrancoisdasilva" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-ghost" href="tel:+33661375839">06 61 37 58 39</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ===================== ESCALATION LADDER ===================== -->
+<section class="section" id="niveaux" aria-labelledby="niveaux-t">
+  <div class="section-head reveal">
+    <p class="eyebrow">niveaux d'intervention</p>
+    <h2 class="section-title" id="niveaux-t">Je couvre toute la chaîne, du N0 au N3.</h2>
+    <p class="ladder-scope mono">périmètre habituel : <b>N2 - N3</b> · des paliers gagnés sur le terrain</p>
+  </div>
+  <div class="ladder reveal">
+    <div class="tier tier--base">
+      <div class="tier-top"><span class="tier-id">N0</span></div>
+      <p class="tier-name">Accueil &amp; réception</p>
+      <ul class="tier-list">
+        <li>Prise d'appel &amp; qualification</li>
+        <li>Ticketing iTop / GLPI</li>
+        <li>Prise en main à distance</li>
+        <li>Postes &amp; imprimantes</li>
+      </ul>
+    </div>
+    <div class="tier tier--base">
+      <div class="tier-top"><span class="tier-id">N1</span></div>
+      <p class="tier-name">Support courant</p>
+      <ul class="tier-list">
+        <li>Comptes &amp; droits AD</li>
+        <li>Suite Microsoft 365</li>
+        <li>VPN &amp; accès distants</li>
+        <li>Déploiement de postes (MDT)</li>
+      </ul>
+    </div>
+    <div class="tier tier--active">
+      <div class="tier-top"><span class="tier-id">N2</span><span class="tier-tag">actif</span></div>
+      <p class="tier-name">Administration</p>
+      <ul class="tier-list">
+        <li>Windows Server 2016-2022, GPO</li>
+        <li>Réseau : DHCP/IPAM, brassage</li>
+        <li>VoIP Mitel &amp; MiCollab</li>
+        <li>MDM Airwatch · firewalls Fortinet/Sophos (notions)</li>
+      </ul>
+    </div>
+    <div class="tier tier--active">
+      <div class="tier-top"><span class="tier-id">N3</span><span class="tier-tag">actif</span></div>
+      <p class="tier-name">Ingénierie &amp; projets</p>
+      <ul class="tier-list">
+        <li>Virtualisation VMware/Hyper-V, Veeam</li>
+        <li>Scripting PowerShell</li>
+        <li>Veille CVE &amp; durcissement</li>
+        <li>Conduite de projets &amp; escalade éditeurs</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== JOURNAL / EXPERIENCE ===================== -->
+<section class="section" id="parcours" aria-labelledby="parcours-t">
+  <div class="section-head reveal">
+    <p class="eyebrow">journal des opérations</p>
+    <h2 class="section-title" id="parcours-t">Parcours</h2>
+    <p class="section-sub">Six ans de terrain, du parc médical sous RGPD à un parc académique de 1 200 postes. Les chiffres sont réels et vérifiables.</p>
+  </div>
+
+  <div class="log">
+    <article class="entry reveal">
+      <p class="entry-meta mono"><span class="ping">●</span> 2022 - juin 2026 · CDD</p>
+      <h3 class="entry-org">Rectorat de l'académie de Nancy-Metz</h3>
+      <p class="entry-role mono">Technicien de recherche et de formation</p>
+      <div class="readout">
+        <span class="chip mono"><b>1 200</b> postes pour <b>5</b> agents</span>
+        <span class="chip mono"><b>637</b> tickets clos et <b>600</b> traités / an</span>
+        <span class="chip mono">~<b>48 h</b> de délai moyen</span>
+      </div>
+      <ul class="entry-list">
+        <li>Support N0 à N2 d'environ <span class="win">1 200 postes à 5 techniciens</span> via iTop : <span class="win">637 tickets clos sur l'année</span> (et ~600 autres traités en contribution).</li>
+        <li>Renouvellement d'environ <span class="win">250 postes par an</span> et d'une cinquantaine de smartphones (déploiement MDT, flotte mobile Airwatch).</li>
+        <li>Conçu et piloté un <span class="win">guichet unique pour les accès télétravail</span> (clé OTP, VPN Cisco, rôle LDAP, droits RH), auparavant éclatés en plusieurs demandes.</li>
+        <li>Animé des webinaires de déploiement MiCollab auprès d'environ <span class="win">1 200 agents</span> ; procédures publiées sur l'intranet.</li>
+        <li>Administré Windows Server (GPO, droits, dossiers réseau) ; réseau N0-N1 (DHCP/IPAM, VPN Cisco + OTP RSA, impression PaperCut) ; VoIP Mitel &amp; MiCollab ; veille CVE ; astreinte on-call.</li>
+      </ul>
+    </article>
+
+    <article class="entry reveal">
+      <p class="entry-meta mono"><span class="ping">●</span> 2020 - 2022 · alternance</p>
+      <h3 class="entry-org">Polyclinique Majorelle (Groupe ELSAN), Nancy</h3>
+      <p class="entry-role mono">Gestionnaire de maintenance informatique</p>
+      <div class="readout">
+        <span class="chip mono"><b>120</b> postes</span>
+        <span class="chip mono"><b>~140</b> téléphones IP</span>
+        <span class="chip mono">environnement <b>RGPD</b></span>
+      </div>
+      <ul class="entry-list">
+        <li>Administré un parc de <span class="win">120 postes et ~140 téléphones IP</span> en environnement médical soumis au RGPD, en binôme avec le responsable SI.</li>
+        <li>Déployé <span class="win">GLPI</span> pour l'inventaire du parc et le ticketing ; installé et configuré postes, périphériques et accès réseau ; déploiement VoIP.</li>
+        <li>Piloté la <span class="win">refonte de la couverture Wi-Fi</span>, supprimant les coupures dans les zones critiques (bloc opératoire, salle d'accouchement).</li>
+        <li>Repensé l'ergonomie des postes de travail, réduisant les <span class="win">troubles musculo-squelettiques et arrêts de travail</span> associés.</li>
+      </ul>
+    </article>
+
+    <article class="entry entry--muted reveal">
+      <p class="entry-meta mono"><span class="ping">●</span> avant l'IT · terrain monégasque</p>
+      <h3 class="entry-org">Management, service &amp; qualité</h3>
+      <ul class="entry-list">
+        <li>Responsable d'équipe logistique (<span class="win">Groupe Vinci, Monaco</span>) et co-gérant de brasserie (Monaco) : management, sens du service et connaissance du terrain monégasque.</li>
+        <li>Contrôle qualité (<span class="win">PSA, Bureau Veritas</span>) : rigueur méthode et respect des procédures.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- ===================== STACK ===================== -->
+<section class="section" id="stack" aria-labelledby="stack-t">
+  <div class="section-head reveal">
+    <p class="eyebrow">stack technique</p>
+    <h2 class="section-title" id="stack-t">Outillage</h2>
+    <p class="section-sub">Ce que j'administre au quotidien. ITIL / ITSM comme cadre, l'automatisation comme réflexe.</p>
+  </div>
+  <div class="stack">
+    <div class="card reveal">
+      <p class="card-title">Poste &amp; ITSM</p>
+      <div class="tags">
+        <span class="tag">iTop</span><span class="tag">GLPI</span><span class="tag">ITIL / ITSM</span>
+        <span class="tag">prise en main à distance</span><span class="tag">escalade</span>
+      </div>
+    </div>
+    <div class="card reveal">
+      <p class="card-title">Systèmes Windows</p>
+      <div class="tags">
+        <span class="tag">Windows Server 2016-2022</span><span class="tag">Active Directory</span>
+        <span class="tag">GPO</span><span class="tag">Azure AD / Entra ID</span>
+      </div>
+    </div>
+    <div class="card reveal">
+      <p class="card-title">Microsoft 365</p>
+      <div class="tags">
+        <span class="tag">Suite</span>
+      </div>
+    </div>
+    <div class="card reveal">
+      <p class="card-title">Virtualisation &amp; sauvegarde</p>
+      <div class="tags">
+        <span class="tag">VMware</span><span class="tag">Hyper-V</span><span class="tag">Veeam</span>
+      </div>
+    </div>
+    <div class="card reveal">
+      <p class="card-title">Réseau &amp; sécurité</p>
+      <div class="tags">
+        <span class="tag">VPN</span><span class="tag">DHCP / IPAM</span><span class="tag">brassage</span>
+        <span class="tag">Fortinet (notion)</span><span class="tag">Sophos (notion)</span>
+      </div>
+    </div>
+    <div class="card reveal">
+      <p class="card-title">Déploiement &amp; mobilité</p>
+      <div class="tags">
+        <span class="tag">MDT</span><span class="tag">MDM Airwatch</span>
+        <span class="tag">Intune / Endpoint (notions)</span><span class="tag">antivirus</span>
+      </div>
+    </div>
+    <div class="card reveal">
+      <p class="card-title">Téléphonie VoIP</p>
+      <div class="tags">
+        <span class="tag">Mitel</span><span class="tag">MiCollab</span>
+      </div>
+    </div>
+    <div class="card reveal">
+      <p class="card-title">Automatisation &amp; conformité</p>
+      <div class="tags">
+        <span class="tag">PowerShell</span><span class="tag">veille CVE</span><span class="tag">RGPD / Data Privacy</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== META ===================== -->
+<section class="section" id="profil" aria-labelledby="profil-t">
+  <div class="section-head reveal">
+    <p class="eyebrow">profil</p>
+    <h2 class="section-title" id="profil-t">Formation, langues &amp; terrain</h2>
+  </div>
+  <div class="meta">
+    <div class="meta-card reveal">
+      <p class="meta-k">Langues</p>
+      <div class="meta-row">
+        <p class="meta-main">Français <span class="lvl">natif</span></p>
+      </div>
+      <div class="meta-row">
+        <p class="meta-main">Anglais <span class="lvl">B1 · opérationnel</span></p>
+        <div class="bars" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+        <p class="meta-note">Tickets &amp; documentation technique en anglais au quotidien.</p>
+      </div>
+    </div>
+
+    <div class="meta-card reveal">
+      <p class="meta-k">Formation</p>
+      <div class="meta-row">
+        <p class="meta-main">Titre pro RNCP 5 <span class="lvl">équiv. BTS</span></p>
+        <p class="meta-note">Gestionnaire maintenance &amp; support · CESI, 2022</p>
+      </div>
+      <div class="meta-row">
+        <p class="meta-main">Bac STI Génie électrotechnique</p>
+      </div>
+    </div>
+
+    <div class="meta-card reveal">
+      <p class="meta-k">Certifications</p>
+      <div class="meta-row">
+        <p class="meta-main">CCNA</p>
+        <p class="meta-note">Cisco Certified Network Associate · 2020</p>
+      </div>
+      <div class="meta-row">
+        <p class="meta-main">Stay Ahead of the AI Curve</p>
+        <p class="meta-note">Google (Coursera), 2026</p>
+      </div>
+    </div>
+
+    <div class="meta-card feature reveal">
+      <p class="meta-k">Terrain d'entraînement</p>
+      <div class="meta-row">
+        <p class="meta-main">CTF / wargames</p>
+        <p class="meta-note">Cybersécurité défensive : analyse de systèmes, stratégie de défense. La curiosité sécu, en dehors des heures de bureau.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER CONSOLE ===================== -->
+<footer class="footer" id="contact">
+  <div class="footer-inner">
+    <p class="footer-status mono"><span class="status-dot" aria-hidden="true"></span> statut : disponible · réponse sous 24 h · astreinte on-call assumée</p>
+    <h2 class="footer-h">Un poste à pourvoir en support IT ? Ouvrons un ticket.</h2>
+    <p class="footer-p">Résident Beausoleil, éligible au CDI monégasque, mobile Monaco / Nice / remote. Permis B. Disponible immédiatement.</p>
+
+    <div class="contact">
+      <a href="mailto:jfdasilvapro@proton.me?subject=Opportunit%C3%A9%20Support%20N2%2FN3">
+        <span class="ck">e-mail</span>
+        <span class="cv">jfdasilvapro@proton.me</span>
+      </a>
+      <a href="tel:+33661375839">
+        <span class="ck">téléphone</span>
+        <span class="cv">06 61 37 58 39</span>
+      </a>
+      <a href="https://linkedin.com/in/jeanfrancoisdasilva" target="_blank" rel="noopener">
+        <span class="ck">linkedin</span>
+        <span class="cv">/in/jeanfrancoisdasilva</span>
+      </a>
+      <div>
+        <span class="ck">localisation</span>
+        <span class="cv">Beausoleil (06240) · Monaco / Nice</span>
+      </div>
+    </div>
+
+    <div class="footer-foot">
+      <span>Jean-François Da Silva · Technicien Support N2/N3</span>
+      <span>&gt; fin de session · à bientôt</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var root=document.documentElement;
+  root.classList.remove('no-js');root.classList.add('js');
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // count-up gauges
+  var nums=document.querySelectorAll('.g-num [data-to]');
+  function fmt(n){return n.toLocaleString('fr-FR').replace(/ /g,' ');}
+  nums.forEach(function(el){
+    var to=parseInt(el.getAttribute('data-to'),10);
+    if(reduce){el.textContent=fmt(to);return;}
+    var dur=1150,startT=null;
+    el.textContent=fmt(0);
+    function step(t){
+      if(startT===null)startT=t;
+      var p=Math.min((t-startT)/dur,1);
+      var e=1-Math.pow(1-p,3);
+      el.textContent=fmt(Math.round(to*e));
+      if(p<1)requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  });
+
+  // reveal on scroll
+  var items=document.querySelectorAll('.reveal');
+  if(reduce||!('IntersectionObserver' in window)){
+    items.forEach(function(el){el.classList.add('in');});
+    return;
+  }
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}
+    });
+  },{threshold:0.12,rootMargin:'0px 0px -8% 0px'});
+  items.forEach(function(el){io.observe(el);});
+})();
+</script>
+</body>
+</html>
